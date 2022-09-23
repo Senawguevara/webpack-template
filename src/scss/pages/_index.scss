@@ -1,0 +1,119 @@
+section{
+    //background-color:$tar-color-f;
+    color: $text-color-2;
+    text-align: center;
+    font-family:$text-light; 
+   
+   
+}
+ .cards{
+        
+        position: relative;
+        width: 100%;
+        height: 950px;
+       display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: space-between;
+        
+    }
+.main-title{
+        display: block;
+        font-size: 1.5rem;
+    }
+.subtitle{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ .card{
+    width: 280px;
+    height: 220px;
+    padding: 0 1em;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px $tar-color-s;
+    background-color: $tar-color-f;
+    
+    
+  
+
+    &--cian{
+        border-top: 5px solid $tar-color-c;
+    }
+    &--red{
+        border-top: 5px solid $tar-color-r;
+    }
+    &--orange{
+        border-top: 5px solid $tar-color-o;
+    }
+    &--blue{
+        border-top: 5px solid $tar-color-b;
+    }
+ }
+
+.text-light{
+    color: $tar-color-t;
+}
+.text-thin{
+    font-family: $thin;
+}
+.text-bold{
+    font-family: $text-bold;
+}
+
+@include laptop{   
+    .cards{
+       
+         width: 1024px;
+         height: 550px;
+        margin:  2em auto; 
+         
+                    
+     }
+
+.card{ 
+    position: absolute;
+    margin:  2em auto;
+    &--left,
+    &--right{
+        top:150px;
+    }
+    &--top,
+    &--button{
+        left: 380px;        
+    }
+    &--left{
+        left: 0;
+    }
+    &--top{
+        top: 0;
+    }
+    &--button{
+        bottom: 0;
+    }
+    &--right{
+        right: 0;
+    }
+    &__text,
+    &__title{
+        text-align: left;
+    }
+    &__icon{
+        position: absolute;
+        right: 2em;
+        bottom: 2em;
+    }
+    
+}
+
+.main-title{
+  
+    font-size: 2.5rem;
+}
+.subtitle{
+    width: 30%;
+   
+}
+}

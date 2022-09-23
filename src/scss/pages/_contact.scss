@@ -1,0 +1,11 @@
+.contact{
+    background-color: $text-color;
+    position: relative;
+    height: 120vh;
+    text-align: center;
+
+    @include laptop{
+        height: calc(100vh - 250px);
+        
+    }
+}

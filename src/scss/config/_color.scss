@@ -1,0 +1,44 @@
+:root{
+   --primary-color:#D2D5D9;
+   --secondary-color:#235fd9;
+   --danger-color:#5941F2;
+   --cta-color:#04D98B;
+   --dark-color:#343434;
+   --dark-color-2:#666;
+   --background-color:#D2D5D9;
+   --text-color:#f2f2f2;
+   --text-color-2:hsl(0 0% 0% );
+
+   //tarjetas
+   --tar-color-r:hsl(0, 78%, 62%);
+   --tar-color-c:hsl(180, 62%, 55%);
+   --tar-color-o:hsl(34, 97%, 64%);
+   --tar-color-b:hsl(212, 86%, 64%);
+   //sombra
+   --tar-color-s:hsl(240 25% 50% /0.2 );
+   //text
+   --tar-color-t:hsl(229, 6%, 66%);
+   //fondo de la tarjeta y del background
+   --tar-color-f:hsl(0, 0%, 93%);
+   
+   
+   
+   
+}
+$primary-color:var(--primary-color);
+$secondary-color:var(--secondary-color);
+$danger-color:var(--danger-color);
+$cta-color:var(--cta-color);
+$dark-color:var(--dark-color);
+$dark-color-2:var(--dark-color-2);
+$background-color:var(--background-color);
+$text-color:var(--text-color);
+$text-color-2:var(--text-color-2);
+$tar-color-r:var(--tar-color-r);
+$tar-color-c:var(--tar-color-c);
+$tar-color-o:var(--tar-color-o);
+$tar-color-b:var(--tar-color-b);
+$tar-color-s:var(--tar-color-s);
+$tar-color-t:var(--tar-color-t);
+$tar-color-f:var(--tar-color-f);
+

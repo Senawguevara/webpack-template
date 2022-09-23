@@ -1,0 +1,25 @@
+//configuaracion guas de estilo
+@import 'config/color';
+@import 'config/fonts';
+
+//mixin
+@import 'mixins/breakpoint';
+@import 'mixins/reset-list.scss';
+@import 'base/_normalize';
+@import 'base/_base';
+
+
+@import 'blocks/header';
+@import 'blocks/topbar';
+@import 'blocks/toggle-menu';
+@import 'blocks/menu';
+@import 'blocks/logo';
+@import 'blocks/sidebar';
+@import 'blocks/main';
+@import 'blocks/lightbox';
+@import 'blocks/forms';
+@import 'blocks/title';
+@import 'blocks/social';
+
+@import 'pages/contact';
+@import 'pages/index';

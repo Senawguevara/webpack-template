@@ -1,0 +1,51 @@
+https://github.com/wguevarc/psicologiafacil
+
+//activar en github navegador
+git remote add origin https://github.com/Senawguevara/webpack-template.git
+git branch -M main
+git push -u origin main
+
+//subir al github
+
+git push
+
+crear proyecto en git
+https://bluuweb.github.io/tutorial-github/01-fundamentos/#comandos-basicos
+
+
+git config --global user.name "Senawguevara"
+
+Es recomendable utilizar el correo asociado a Github
+git config --global user.email "wguevara90@misena.edu.co"
+
+// Iniciar un nuevo repositorio
+// Crear la carpeta oculta .git
+git init
+
+// Agregar todos los archivos para que esté pendiente de los cambios
+git add .
+
+// Crear commit (fotografía del proyecto en ese momento)
+git commit -m "primer commit"
+
+TRUCOS
+// Muestra en una línea los commit realizados
+git log --oneline
+
+// Muestra en una línea los commit realizados pero más elegante
+git log --oneline --decorate --all --graph
+
+// Solo muestra los archivos modificados
+git status -s
+
+
+////////////////////////////////////////////////////////////////////////
+
+//para registrar despues de la instacion
+
+//para inciar el repocitorio 
+git add .
+//agregar commit o texto aclaratior de la carga
+git commit -m "commit"
+//subir a la web repositorio github
+git push
